@@ -57,7 +57,7 @@ RUN mkdir -p /app/data
 COPY --from=installer --chown=evolu:nodejs /app/deploy/ ./
 
 # Declare data volume for clarity and persistence
-VOLUME ["/app/data"]
+# VOLUME ["/app/data"]
 
 
 
